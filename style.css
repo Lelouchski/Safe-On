@@ -1,0 +1,527 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+.footer {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo-container img {
+    height: 60px;
+}
+
+.navbar .separator {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .nav-links li {
+    list-style: none;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.innovationRevendeurs {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .nav-links a:hover {
+    color: #DC3E25;
+}
+
+.navbar .nav-links li:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    margin-left: 5px;
+}
+
+.btnOffre {
+    height: 50px;
+    background-color: #DC3E25;
+    border-radius: 10px;
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.btnOffre:hover {
+    background-color: white;
+    color: #DC3E25;
+    border: 1px solid #DC3E25;
+}
+
+.btnOffre a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-overlay {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/FOND_SAFE_ON.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-overlay h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.text-overlay p {
+    font-size: 1.2em;
+}
+
+.container-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.overlay-image {
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.formWhite {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    color: black;
+    flex: 1;
+    align-self: stretch;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.form-group input {
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+}
+
+.textConsentWhite {
+    margin-left: 10px;
+}
+
+.btnFormWhite {
+    background-color: #DC3E25;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btnFormWhite:hover {
+    background-color: white;
+    color: #DC3E25;
+    border: 1px solid #DC3E25;
+}
+
+.gradient {
+    background: linear-gradient(to right, #DC3E25, #DB0566);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient img {
+    height: 40px;
+}
+
+.profiteOffre {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+}
+
+.container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.container h2 {
+    margin-top: 10px;
+}
+
+.btnContainer {
+    background-color: #DC3E25;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.btnContainer:hover {
+    background-color: white;
+    color: #DC3E25;
+    border: #DC3E25 1px solid;
+}
+
+.container-split {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.image-container {
+    position: relative;
+    max-width: 70%;
+}
+
+
+.prix-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 15%;
+}
+
+.content-container {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.title-images {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title-images img {
+    height: 40px;
+}
+
+.legendeDescription h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+}
+
+section {
+    background-color: #2E2E2E;
+    padding: 20px;
+}
+
+section h3 {
+    color: white;
+}
+
+section h3 span {
+    color: #DC3E25;
+}
+
+.form {
+    padding: 20px;
+    color: black;
+    width: 50%;
+    margin: auto;
+}
+
+.form input {
+    height: 25px;
+}
+
+.textConsent,
+.stickers {
+    color: white;
+}
+
+.btnForm {
+    background-color: #DC3E25;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #DC3E25;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.btnForm:hover {
+    background-color: #2E2E2E;
+    color: #DC3E25;
+    border: #DC3E25 1px solid;
+}
+
+.footer-content {
+    padding: 20px;
+    color: white;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-logo {
+    height: 20vh;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info p,
+.footer-column p {
+    margin: 5px 0;
+}
+
+.footerFlexOn {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cursor {
+    height: 7vh;
+}
+
+.icon-container img {
+    height: 5vh;
+    margin-top: 5px;
+}
+
+.line {
+    border-top: 1px solid white;
+    margin: 20px 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright p {
+    color: grey;
+    font-size: 10px;
+}
+
+.copyright a {
+    color: grey;
+    font-size: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #DC3E25;
+    opacity: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 999;
+    width: 35%;
+}
+
+.popup-content {
+    color: white;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .navbar .nav-links {
+        align-items: center;
+    }
+
+    .navbar .nav-links li {
+        font-size: 15px;
+    }
+
+    .text-overlay {
+        width: 100%;
+        margin: auto;
+    }
+
+    .overlay-image {
+        width: 90%;
+    }
+
+    .formWhite {
+        margin-top: 10px;
+    }
+
+    .gradient {
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .container-horizontal {
+        flex-direction: column;
+    }
+
+    .container-row {
+        display: grid;
+    }
+
+    .btnContainer {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-split {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .image-container {
+        max-width: 100%;
+    }
+
+    .content-container {
+        max-width: 100%;
+    }
+
+    .prix-image {
+        position: static;
+        max-width: 100%;
+        margin: 10px auto;
+        height: 10vh;
+    }
+
+    .visuelSafeOn {
+        width: 100vw;
+    }
+
+    .form-group input,
+    .form-group select {
+        padding: 5px;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        height: 10vh;
+    }
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Présentation du nouveau produit de la marque Safe-on, profitez d’une offre
+        commerciale de lancement!">
+    <title>Safe-on</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="images/LOGO_SAFE_ON.svg" alt="Logo Safe-on" class="logo1">
+                <span class="separator">BY</span>
+                <img src="images/FLEX-ON_Logo2018.svg" alt="Logo Flex-on" class="logo2">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#innovationRevendeurs" class="innovationRevendeurs">Innovation</a></li>
+                <li><a href="#innovationRevendeurs" class="innovationRevendeurs">Nos revendeurs</a></li>
+                <li><button class="btnOffre"><a href="#prix">Offre promo</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="background-container">
+            <div class="text-overlay">
+                <h1>Safe-on is beautiful</h1>
+                <p>Découvrez le nouvel étrier qui vous propose tous les avantages Flex-on avec une innovation sécurité
+                    en plus !</p>
+                <div class="container-horizontal">
+                    <img src="images/video.jpg" alt="Image vidéo" class="overlay-image">
+                    <form class="formWhite">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="nom" name="nom" placeholder="Nom">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="magasin" name="magasin" placeholder="Magasin/Sellerie">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="code-postal" name="code-postal" placeholder="Code Postal">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="ville" name="ville" placeholder="Ville">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Adresse Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="telephone" name="telephone" placeholder="Téléphone">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="number" id="quantite" name="quantite" placeholder="Quantité souhaitée">
+                            </div>
+                        </div>
+                        <div class="form-row checkbox-row">
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="consent" name="consent">
+                                <label for="consent" class="textConsentWhite">En soumettant ce formulaire, j’accepte que
+                                    les
+                                    informations saisies dans ce formulaire soient utilisées, exploitées et traitées
+                                    pour permettre de me recontacter, dans le cadre de cette opération.</label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <span class="stickersWhite">* 1 paire de stickers Flex-on édition limitée</span>
+                        </div>
+                        <div>
+                            <button class="btnFormWhite">Bénéficiez de l'offre promotionnelle</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <nav class="gradient" id="innovationRevendeurs">
+            <img src="images/LOGO_SAFE_ON_BLC.svg" alt="Logo Safe-on">
+            <p class="profiteOffre">
+                Profitez de notre offre promotionnelle
+            </p>
+
+        </nav>
+        <div class="container-row">
+            <div class="container">
+                <img src="images/ETRIER_SAFE_ON_2019_COULEUR_V2.jpg" alt="Image Safe-on">
+                <h2>
+                    Votre personnalisation offerte* du XX au XX octobre!
+                </h2>
+                <span class="spanContainer">
+                    Téléchargez vite votre bon pour profite de notre offre commerciale découverte
+                </span>
+                <button class="btnContainer">Je télécharge</button>
+            </div>
+            <div class="container">
+                <img src="images/revendeur.jpg" alt="Image revendeur">
+                <h2>Trouvez un revendeur
+                </h2>
+                <span class="spanContainer">
+                    Trouvez votre sellier et les produits Safe-On les plus proches de vous.
+                </span>
+                <button class="btnContainer">Je trouve mon sellier</button>
+            </div>
+        </div>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="popup-close" onclick="closePopup()">X</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet libero nec velit fermentum
+                    lacinia nec nec massa. Sed ac semper lectus. Integer quis nulla sit amet nisi ultricies ultrices
+                    vitae eu nisl.</p>
+            </div>
+        </div>
+        <div class="container-split" id="prix">
+            <div class="image-container">
+                <img src="images/VISUEL_SAFE_ON.png" alt="article" class="visuelSafeOn">
+                <img class="prix-image" src="images/prix.png" alt="Prix">
+            </div>
+            <div class="content-container">
+                <div class="title-images">
+                    <img src="images/LOGO_SAFE_ON.svg" alt="Logo Sage-on">
+                    <img src="images/nouveau.jpg" alt="Image nouveau">
+                </div>
+                <div class="legendeDescription">
+                    <h3>Design</h3>
+                    <p>Sobre et élégant.</p>
+                    <div class="divider"></div>
+                    <h3><span class="spanCaracteristiques">+</span> Confortable</h3>
+                    <p>Avec son système d’absorption des chocs.</p>
+                    <div class="divider"></div>
+                    <h3><span class="spanCaracteristiques">+</span> Personnalisable</h3>
+                    <p>Couleur du cadre, choix du plateau,<br>Couleur des élastomères aimantés.</p>
+                    <div class="divider"></div>
+                    <h3><span class="spanCaracteristiques">+</span> Safe</h3>
+                    <p>Grâce à sa nouvelle branche souple élastomère escamotable.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section>
+        <h3>
+            <span>
+                OFFRE PROMOTIONNELLE
+            </span>
+            <br>
+            <p>
+                1 PERSONNALISATION OFFERTE *
+            </p>
+        </h3>
+        <form class="form">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="nom" name="nom" placeholder="Nom">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="magasin" name="magasin" placeholder="Magasin/Sellerie">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="code-postal" name="code-postal" placeholder="Code Postal">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="ville" name="ville" placeholder="Ville">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Adresse Email">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="telephone" name="telephone" placeholder="Téléphone">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="number" id="quantite" name="quantite" placeholder="Quantité souhaitée">
+                </div>
+            </div>
+            <div class="form-row checkbox-row">
+                <div class="checkbox-container">
+                    <input type="checkbox" id="consent" name="consent">
+                    <label for="consent" class="textConsent">En soumettant ce formulaire, j’accepte que les informations
+                        saisies dans ce formulaire soient utilisées, exploitées et traitées pour permettre de me
+                        recontacter, dans le cadre de cette opération.</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <span class="stickers">* 1 paire de stickers Flex-on édition limitée</span>
+            </div>
+            <div>
+                <button class="btnForm">Bénéficiez de l'offre promotionnelle</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-row">
+                <img src="images/LOGO_FLEX_ON_BLANC.svg" alt="LogoFlex-on" class="footer-logo">
+                <div class="footer-column">
+                    <h2>Office</h2>
+                    <div class="contact-info">
+                        <p>commercial@flex-on.fr</p>
+                        <p>05 59 90 46 18</p>
+                    </div>
+                    <p>ZA Gaston Phoebus
+                        <br> 9 Chemin de brousse
+                        <br> 64160 Morlaàs
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h2>Contact</h2>
+                    <p>Manon : 07 86 01 89 37</p>
+                    <p>france@flex-on.fr</p>
+                </div>
+                <div class="footer-column">
+                    <h2>Connect</h2>
+                    <p class="footerFlexOn">FLEX-ON.FR</p>
+                    <img src="images/PICTO_POINTEUR.svg" alt="curseur pointeur" class="cursor">
+                    <p>Support us :</p>
+                    <div class="icon-container">
+                        <img src="images/PICTO_FB.svg" alt="Facebook">
+                        <img src="images/PICTO_INSTA.svg" alt="Instagram">
+                        <img src="images/PICTO_YOUTUBE.svg" alt="YouTube">
+                    </div>
+                </div>
+
+            </div>
+            <div class="line">
+            </div>
+            <div class="copyright">
+                <p>Copyright Mediapilote 2018, Flex-on, France</p>
+                <a href="#">Unsubscribe here</a>
+            </div>
+        </div>
+    </footer>
+
+    <script defer>
+        function openPopup() {
+            const popup = document.getElementById("popup")
+            popup.style.display = "block"
+        }
+
+        function closePopup() {
+            var popup = document.getElementById("popup")
+            popup.style.display = "none"
+        }
+
+        const btnContainers = document.querySelectorAll(".btnContainer")
+
+        btnContainers.forEach(function (btn) {
+            btn.addEventListener("click", openPopup)
+        })
+    </script>
+</body>
+
+</html>
